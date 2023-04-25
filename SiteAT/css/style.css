@@ -1,0 +1,217 @@
+html{
+  scroll-behavior:smooth;
+  position: relative;
+}
+
+
+nav{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+  cursor: pointer;
+}
+
+nav .navbar-brand {
+  color: #6610F2;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+ #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #6610F2;
+}
+#mainNav .navbar-brand img {
+  height: 3.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+
+header {
+  padding-top: 10.5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/gamer-idoso.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner{
+  margin-top: 20%;
+  
+}
+
+
+header h5 {
+  color:white;
+  font-size: 5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header h2{
+  color: white;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.portifolio{
+  display: flex;
+  flex-direction: column;
+
+}
+.todos-itens{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.itens{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+  width: 350px;
+  padding: 5%;
+  transition: 0.5s;
+}
+
+
+.SobreNos{
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+}
+
+.SobreNos h2{
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.SobreNos h4{
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 500;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.portifolio-caption{
+  display: flex;
+  
+}
+
+.itens img{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 32px;
+  border: 1px solid #212529;
+  
+  
+}
+
+
+
+.todos-itens .itens:hover{
+  scale: 1.2;
+  transition: .5s;
+}
+
+.time{
+  height: 700px;
+}
+
+
+
+.pedroca{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:  space-between;
+  
+}
+
+
+.pessoa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 250px;
+  height: 400px;
+
+}
+.pessoa img{
+  width: 175px;
+  height: 175px;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.contato{
+  background-color: #212529;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 620px;
+}
+.text-center{
+  padding: 50px;
+}
+
+
+.contato form {
+  display: flex;
+  flex-direction: row;
+}
+.formularios{
+  margin-left: 30px;
+  margin-right: 60px;
+
+}
+.contato button{
+  background: #ffc800;
+  width: 140px;
+  height: 70px;
+}
+.formularios input{
+  margin-bottom: 10px;
+  width: 590px;
+  height: 60px;
+}
+.butao{
+  margin-top: 20px;
+  display: flex;
+
+}
+
+footer{
+  height: 10vh;
+  margin-top: 1%;
+}

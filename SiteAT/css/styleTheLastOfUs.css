@@ -1,0 +1,209 @@
+html{
+  position: relative;
+}
+
+
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  
+  nav .navbar-brand {
+    color: #6610F2;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+  }
+   #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #6610F2;
+  }
+  #mainNav .navbar-brand img {
+    height: 3.5rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+  }
+
+
+
+
+
+
+
+
+
+
+p{
+  font-size: 22px;
+}
+main h2{
+  font-size: 36 px;
+  
+}
+
+  main{
+    height: 100%;
+  margin-top: 2.5rem;
+  width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+    .CaixaEFoto{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10.5rem;
+    text-align: center;
+    color: white;
+    background-image: url("../assets/TheLastOfusBAckground.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .CaixaTexto{
+    padding: 2rem;
+    margin-top: 10rem;
+    margin-left: 10%;
+    margin-bottom: 10rem;
+    width: 40%;
+    height: 10%;
+    background-color:#212529;
+    border-radius: 32px;
+
+  }
+
+  .CaixaTexto p{
+    font-size: 20px;
+  }
+
+  .ImagemJogo{
+    background-image:url("../assets/FundoJogo.png"); 
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+  }
+
+  li{
+    font-size: 20px;
+    list-style-type: none;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Sinopse{
+    width:80%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.recomendacoes{
+
+display: flex;
+flex-direction: column;
+width:25%;
+padding: 1rem;
+margin-right: 5rem;
+border: 1px solid #212529;
+height: 25%;
+}
+
+.recomendacoes p{
+  margin-top: 2rem;
+}
+
+.recomendacoes h2{
+  margin-bottom: 2rem;
+  
+}
+
+.SinopseERecomendacoes{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.Requisitos{
+  background-color: #212529;
+  padding: 2rem;
+  color:white;
+}
+
+.Relacionados h2{
+  padding: 2%;
+}
+
+
+.Relacionados{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+.scroll  {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 4rem;
+  
+  
+}
+
+.scrollmenu{
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  
+}
+
+.scroll .scrollmenu:hover{
+  scale: 1.2;
+  transition: .5s;
+}
+
+.scrollmenu img{
+  width: 70%;
+  height: 70%;
+  border-radius: 15%;
+  padding: 2%;
+  cursor: pointer;
+  border: 2px solid #212529;
+
+}
+
+
+footer{
+  margin-top: 2.5%;
+  height: 10vh;
+}
